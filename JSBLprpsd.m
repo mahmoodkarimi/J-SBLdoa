@@ -1,6 +1,8 @@
 
 function [psaiestofn,nitr]= JSBLprpsd(xmt,scnum,angstpSBL,rfnratio)
 
+% The JSBLprpsd.m contains the Matlab code of the J-SBL doa estimation algoritghm.
+%
 % psaiestofn: DOA's of sources estimated by the J-SBL algorithm and the fine search
 % nitr: Number of iterations in the J-SBL algorithm
 % xmt : Matrix containing the outputs of the array
