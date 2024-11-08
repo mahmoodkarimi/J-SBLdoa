@@ -5,7 +5,7 @@ function [psaiestofn,nitr]= JSBLprpsd(xmt,scnum,angstpSBL,rfnratio)
 %
 % psaiestofn: DOA's of sources estimated by the J-SBL algorithm and the fine search
 % nitr: Number of iterations in the J-SBL algorithm
-% xmt : Matrix containing the outputs of the array
+% xmt : Matrix containing the outputs of the array (each row contains the outputs of one sensor)
 % scnum : Number of sources
 % angstpSBL : Anglular step size in the J-SBL algorithm (in degrees)
 % rfnratio : Ratio of angstpSBL to the fine search steps
